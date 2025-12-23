@@ -30,3 +30,21 @@
     width: 277px;
 }
 /* navbar */
+/* hero */
+.hero{
+    background-color: var(--primary-dark);
+    height: 100vh;
+}
+.hero .info h1{
+    width: 500px;
+
+}
+/* hero */
+.my-img {
+    width: 639px;
+    height: 400px;
+}
+.p-top{
+    padding-top: 100px;
+}
+
