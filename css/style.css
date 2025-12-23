@@ -1,5 +1,6 @@
 *{
     font-family: "Inter", sans-serif;
+    box-sizing: border-box;
 }
 :root{
     --primary-dark:#043873;
@@ -31,20 +32,38 @@
 }
 /* navbar */
 /* hero */
-.hero{
+.hero {
     background-color: var(--primary-dark);
-    height: 100vh;
+    min-height: calc(100vh - 76px);
+    overflow-x: hidden; 
 }
-.hero .info h1{
-    width: 500px;
 
+.hero .info p,
+.hero .info h1 {
+    max-width: 100%;
 }
-/* hero */
+
 .my-img {
-    width: 639px;
-    height: 400px;
-}
-.p-top{
-    padding-top: 100px;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
 }
 
+.p-top {
+    padding-top: 55px;
+}
+
+.p-bottom {
+    padding-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    .p-top {
+        padding-top: 30px;
+    }
+    
+    .hero {
+        /* min-height: auto; */
+        padding-bottom: 50px;
+    }
+}
