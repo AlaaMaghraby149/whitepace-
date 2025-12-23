@@ -9,3 +9,24 @@
     --secondary-white:#FFFFFF;
     --secondary-black:#212529;
 }
+/* navbar */
+.navbar{
+    background-color: var(--primary-dark);
+}
+.navbar .btn-free{
+    width: 200px;
+}
+.navbar ul.navbar-nav li a{
+    color: var(--secondary-white);
+}
+
+.navbar ul.navbar-nav li a:active,
+.navbar ul.navbar-nav li a:visited,
+.navbar ul.navbar-nav li a:focus,
+.navbar ul.navbar-nav li a:hover{
+    color: var(--secondary-white);
+}
+.navbar .btns{
+    width: 277px;
+}
+/* navbar */
