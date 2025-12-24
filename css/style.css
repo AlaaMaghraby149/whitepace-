@@ -99,6 +99,11 @@
     background-color: var(--primary-dark);
 }
 /* your-work */
+/* our-sponsers */
+.our-sponsers .row svg{
+    font-size: 50px;
+}
+/* our-sponsers */
 .my-img {
     max-width: 100%;
     height: auto;
