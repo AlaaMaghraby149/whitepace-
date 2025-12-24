@@ -40,9 +40,21 @@
 
 .hero .info p,
 .hero .info h1 {
-    max-width: 100%;
+    max-width: 90%;
 }
-
+/* hero */
+/* work-management */
+/* .work-management::after{
+    content: '';
+    width: 243px;
+    height: 4px;
+    background-color: var(--secondary-yellow);
+    position: absolute;
+    bottom: 61%;
+    right: 67%;
+    transform: translateX(-50%);
+}  */
+/* work-management */
 .my-img {
     max-width: 100%;
     height: auto;
