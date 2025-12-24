@@ -60,6 +60,44 @@
     background-color: var(--primary-dark);
 }
 /* customize */
+/* pricing */
+.pricing .row div{
+    border:  1px solid #FFE492;
+    border-radius: 8px;
+    margin-right: 16px;
+    padding-inline: 16px;
+}
+.pricing button{
+    border:  1px solid #FFE492;;
+}
+.pricing ul li{
+    margin-bottom: 18px;
+}
+.pricing ul li span:first-child{
+    padding-right: 15px;
+}
+.sec-col{
+    background-color: var(--primary-dark);
+    height: 600px;
+}
+.sec-col button{
+    background-color: var(--primary-light);
+    border: none;
+}
+.sec-col h2{
+    color: var(--secondary-yellow);
+}
+.sec-col ul li .y{
+    color: var(--secondary-yellow);
+}
+.sec-col ul li {
+    margin-bottom: 25px;
+}
+/* pricing */
+
+
+
+
 .my-img {
     max-width: 100%;
     height: auto;
