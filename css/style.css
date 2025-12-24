@@ -55,10 +55,11 @@
     transform: translateX(-50%);
 }  */
 /* work-management */
-/* content */
-
-
-/* content */
+/* customize */
+.customize{
+    background-color: var(--primary-dark);
+}
+/* customize */
 .my-img {
     max-width: 100%;
     height: auto;
