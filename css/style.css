@@ -141,7 +141,7 @@
 }
 .footer .line{
     height: 3px;
-    max-width: 700px;
+    max-width: 500px;
     width: 100%;
     background-color: var(--secondary-white);
     opacity: .3;
