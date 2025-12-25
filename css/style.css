@@ -135,6 +135,19 @@
     margin-right:40px ;
 }
 /* free-trial */
+/* footer */
+.footer{
+    background-color: var(--primary-dark);
+}
+.footer .line{
+    height: 3px;
+    max-width: 500px;
+    width: 100%;
+    background-color: var(--secondary-white);
+    opacity: .3;
+    border-radius: 8px;
+}
+/* footer */
 .my-img {
     max-width: 100%;
     height: auto;
