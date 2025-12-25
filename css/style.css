@@ -124,6 +124,14 @@
     /* margin-left: 88px; */
 }
 /* review */
+/* free-trial */
+.free-trial{
+    background-color: var(--primary-dark);
+}
+.free-trial .img-mr{
+    margin-right:40px ;
+}
+/* free-trial */
 .my-img {
     max-width: 100%;
     height: auto;
