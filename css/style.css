@@ -97,7 +97,10 @@
 /* your-work */
 .your-work{
     background-color: var(--primary-dark);
+    height: 450px;
 }
+
+
 /* your-work */
 /* our-sponsers */
 .our-sponsers .row svg{
@@ -113,16 +116,16 @@
 .review .row .colr{
     box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.35);
     border-radius: 4px;
+    margin-right: 16px;
 }
+
 .review .row .col-b{
     background-color: var(--primary-light);
 }
 .review .row .col-b .line{
     background-color: var(--secondary-white);
 }
-.review .row{
-    /* margin-left: 88px; */
-}
+
 /* review */
 .my-img {
     max-width: 100%;
